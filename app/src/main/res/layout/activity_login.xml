@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mulai"
+    tools:context="Login">
+
+
+    <EditText
+        android:id="@+id/editCode"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:background="@android:color/transparent"
+        android:maxLength="6"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="35dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/masuk"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="345dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="500dp"
+        android:onClick="buttonMasuk"
+        tools:ignore="OnClick" />
+
+</<RelativeLayout>
