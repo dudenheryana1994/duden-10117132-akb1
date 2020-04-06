@@ -10,13 +10,13 @@
 
     <EditText
         android:id="@+id/editCode"
-        android:layout_width="350dp"
-        android:layout_height="70dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
         android:background="@android:color/transparent"
         android:maxLength="6"
-        android:layout_marginTop="600dp"
-        android:layout_marginLeft="35dp"
-        tools:ignore="MissingConstraints" />
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="70dp"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/masuk"
@@ -24,8 +24,8 @@
         android:layout_width="345dp"
         android:layout_height="60dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="340dp"
         android:onClick="buttonMasuk"
         tools:ignore="OnClick" />
 
-</<RelativeLayout>
+</RelativeLayout>
